@@ -51,4 +51,11 @@ public class AutorRest {
 		 as.eliminar(codigo);
 
 	}
+	
+	@POST
+	@Produces (MediaType.APPLICATION_JSON)
+	@Path("/actualizar")
+	public Autor Actualizar(Autor autor) {
+		return as.Actualizar(autor);
+	}
 }

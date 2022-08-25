@@ -87,6 +87,37 @@
 			"response": []
 		},
 		{
+			"name": "autores.actualizar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"codigo\": \"0\",\r\n\"nombre\": \"Juan Vera\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/BIBLIOTECA-WEB/rest/autor/actualizar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"BIBLIOTECA-WEB",
+						"rest",
+						"autor",
+						"actualizar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "autores.eliminar",
 			"request": {
 				"method": "DELETE",
